@@ -5,7 +5,7 @@ const App = () => {
   useEffect(() => {
     const getLink = async () => {
       try {
-       const response = await axios.get("https://dashboard.render.com/web/srv-d3cejh56ubrc73en9250")
+       const response = await axios.get("https://simple-4wr3.onrender.com")
         setMessage(response.data)
       } catch (error) {
         console.error(error);
